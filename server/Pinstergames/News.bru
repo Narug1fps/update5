@@ -1,0 +1,21 @@
+meta {
+  name: News
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3001/api/news/create/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "Title":"Pinster Games Launched Mary!!",
+    "Author":"Eu",
+    "Link":"http://localhost:3001/end",
+    "ImageUrl":"http://localhost:3001/end.png",
+    "Content":"Pinster Games Launched Mary today!! Lorem Ipsum sla das quantas"
+  }
+}
